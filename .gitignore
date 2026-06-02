@@ -1,0 +1,18 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.env
+.python-version
+
+# Secrets — never commit Feishu App ID/Secret, OpenRouter keys, tokens
+*.secret
+secrets/
+credentials.json
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
